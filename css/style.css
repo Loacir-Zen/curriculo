@@ -1,0 +1,183 @@
+body {
+  font-family: "EB Garamond", serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", serif;
+}
+
+.menu-lateral {
+  width: 240px;
+  height: 100%;
+
+  /*position: fixed;*/
+  background: #014f86;
+  text-align: center;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.menu-lateral img {
+  width: 140px;
+  height: 140px;
+  border-radius: 150px;
+  margin: 25px auto 10px auto;
+}
+
+.lista-dados p {
+  padding: 10px;
+}
+
+.menu-lateral h4 {
+  margin: 0 0 7px auto;
+}
+
+.lista-dados li a {
+  text-decoration: none;
+}
+
+.lista-dados a:active {
+  color: #fefefe;
+}
+
+.lista-dados a:visited {
+  color: #fefefe;
+}
+
+.itens-habilidades p {
+  text-align: left;
+  padding: 0 0 0 15px;
+}
+
+.itens-idiomas p {
+  text-align: left;
+  padding: 0 0 0 15px;
+}
+
+header {
+  /* background: blue;*/
+}
+
+.conteiner-principal {
+  height: 160px;
+  width: 100%;
+  position: absolute;
+  background: #fefefe;
+  display: inline-block;
+}
+
+.menu-horizontal {
+  padding: 18px 10px 18px 16px;
+  color: #012a4a;
+}
+
+.menu-horizontal li a {
+  text-decoration: none;
+}
+
+.menu-horizontal a:active {
+  color: #012a4a;
+}
+
+.menu-horizontal a:visited {
+  color: #012a4a;
+}
+
+.menu-horizontal h3 {
+  letter-spacing: 3px;
+  padding: 18px 10px 18px 0px;
+}
+
+.menu-horizontal h2 {
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.lista-contatos {
+  padding: 8px 0px;
+}
+
+.lista-contatos li {
+  display: inline-block; /*23%;*/
+  width: 290px;
+}
+
+.lista-contatos li img {
+  width: 22px;
+}
+
+.lista-contatos p {
+  display: inline;
+  margin: 0 0 0 5px;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.lista-dados {
+  color: #fefefe;
+}
+
+.lista-dados li {
+  margin: 0 0 22px 0;
+}
+
+.lista-dados li img {
+  width: 22px;
+  height: 22px;
+  background-color: #fefefe;
+  padding: 2px;
+}
+
+.lista-dados p {
+  margin: 0px 5px 8px 5px;
+  font-size: 14px;
+}
+
+.lista-principal li img {
+  width: 22px;
+}
+
+.conteudo-principal {
+  padding: 18px 10px 18px 16px;
+  margin: 36px 0 0 46px;
+  color: #012a4a;
+  height: 500px;
+  width: 780px;
+}
+
+.conteudo-principal li {
+  display: inline;
+  margin: 10px 0 16px 0;
+}
+
+.conteudo-principal h4 {
+  margin: 0 0 8px 0;
+}
+
+.conteudo-principal p {
+  margin: 0 0 6px 0;
+}
+
+.conteudo-principal li img {
+  width: 28px;
+  height: 28px;
+  padding: 2px;
+  border-radius: 150px;
+}
+
+.formacao-academica li img {
+  width: 35px;
+  height: 35px;
+  padding: 0;
+}
+
+.conteudo-principal li p strong {
+  font-weight: bold;
+}
+
+.conteudo-principal li hr {
+  margin: 9px 0 32px 0;
+}
+
+.experiencias-profissionais li img {
+  border-radius: 0px;
+}
